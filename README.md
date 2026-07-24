@@ -84,3 +84,119 @@ The sample metadata, including BioProject accessions, SRA identifiers, sequencin
 - Gene Ontology (GO) enrichment analysis.
 - Pathway enrichment using g:Profiler.
 - Visualisation of enriched biological pathways.
+
+---
+
+# Tools & Technologies
+
+### Primary Analysis Platform
+- Galaxy Europe
+
+### Programming & Data Analysis
+- Python
+- Jupyter Notebook
+- pandas
+- matplotlib
+
+### Functional Enrichment
+- g:Profiler (g:GOSt)
+
+---
+
+# Repository Structure
+
+```
+GENOMAC-Brain-Cancer-Variant-Analysis/
+│
+├── workflow/
+│   └── Workflow documentation
+│
+├── notebooks/
+│   ├── Brain_Cancer_Variant_Analysis.ipynb
+│   └── Notebook documentation
+│
+├── results/
+│   ├── Gene summary tables
+│   ├── Gene lists
+│   └── g:Profiler enrichment results
+│
+├── figures/
+│   ├── Sample metadata
+│   ├── g:Profiler Manhattan plot
+│   └── Top enriched pathways
+│
+└── README.md
+```
+
+---
+
+# Key Results
+
+- Analysed 10 publicly available human brain cancer whole-genome sequencing (WGS) datasets.
+- Identified high and moderate impact genetic variants following annotation.
+- Generated consolidated gene summaries from all analysed samples.
+- Performed gene frequency analysis to identify recurrently observed genes.
+- Conducted Gene Ontology (GO) and pathway enrichment analysis using g:Profiler.
+- Visualised enriched biological pathways and functional categories using Python.
+
+> **Note:** This repository demonstrates a bioinformatics workflow using publicly available datasets. The enrichment results presented here are intended for educational and workflow demonstration purposes and should be interpreted as hypothesis-generating observations requiring further biological validation.
+
+---
+
+# Figures
+
+Representative figures included in this repository:
+
+- Brain cancer WGS sample metadata
+- g:Profiler Manhattan plot
+- Top enriched pathways
+
+---
+
+# Skills Demonstrated
+
+## Bioinformatics
+
+- Whole-genome sequencing (WGS) analysis
+- Variant calling workflow
+- Variant annotation
+- Functional enrichment analysis
+- Gene Ontology (GO) analysis
+
+## Computational
+
+- Galaxy Europe
+- Python programming
+- Data preprocessing
+- Data integration
+- Data visualization
+- Reproducible workflow documentation
+
+## Biological Interpretation
+
+- Variant filtering
+- Gene frequency analysis
+- Functional pathway interpretation
+- Biological data summarisation
+
+---
+
+# References & Acknowledgements
+
+This project was developed using publicly available datasets and open-source bioinformatics resources.
+
+The following platforms and tools were used throughout the analysis:
+
+- Galaxy Europe
+- g:Profiler (g:GOSt)
+- National Center for Biotechnology Information (NCBI) Sequence Read Archive (SRA)
+
+Special thanks to the developers and maintainers of these open-source resources for making reproducible bioinformatics research accessible.
+
+---
+
+## License
+
+This repository is intended for educational and portfolio purposes.
+
+Public sequencing datasets remain the property of their original submitters and the NCBI Sequence Read Archive.
