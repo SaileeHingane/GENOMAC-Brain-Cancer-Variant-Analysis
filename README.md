@@ -1,6 +1,11 @@
 # GENOMAC-Brain-Cancer-Variant-Analysis
 Brain cancer whole genome variant analysis using Galaxy, Python, and functional enrichment.
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Galaxy Europe](https://img.shields.io/badge/Galaxy-Europe-orange)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626)
+![WGS](https://img.shields.io/badge/NGS-WGS-success)
+
 # GENOMAC Brain Cancer Variant Analysis
 
 ## Project Overview
@@ -187,9 +192,9 @@ This project was developed using publicly available datasets and open-source bio
 
 The following platforms and tools were used throughout the analysis:
 
-- Galaxy Europe
-- g:Profiler (g:GOSt)
-- National Center for Biotechnology Information (NCBI) Sequence Read Archive (SRA)
+- National Center for Biotechnology Information (NCBI) Sequence Read Archive (SRA) (https://www.ncbi.nlm.nih.gov/sra) 
+- Galaxy Europe (https://usegalaxy.eu/user)
+- g:Profiler (g:GOSt) (https://biit.cs.ut.ee/gprofiler/gost)
 
 Special thanks to the developers and maintainers of these open-source resources for making reproducible bioinformatics research accessible.
 
