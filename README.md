@@ -101,7 +101,7 @@ The sample metadata, including BioProject accessions, SRA identifiers, sequencin
 - Python
 - Jupyter Notebook
 - pandas
-- matplotlib
+- matplotlib/seaborn 
 
 ### Functional Enrichment
 - g:Profiler (g:GOSt)
