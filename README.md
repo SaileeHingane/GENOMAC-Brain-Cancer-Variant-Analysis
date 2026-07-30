@@ -121,6 +121,7 @@ GENOMAC-Brain-Cancer-Variant-Analysis/
 │   └── Notebook documentation
 │
 ├── results/
+|   ├── AllSamples_FilteredCombined
 │   ├── Gene summary tables
 │   ├── Gene lists
 │   └── g:Profiler enrichment results
@@ -137,14 +138,15 @@ GENOMAC-Brain-Cancer-Variant-Analysis/
 
 # Key Results
 
-- Analysed 10 publicly available human brain cancer whole-genome sequencing (WGS) datasets.
-- Identified high and moderate impact genetic variants following annotation.
-- Generated consolidated gene summaries from all analysed samples.
-- Performed gene frequency analysis to identify recurrently observed genes.
-- Conducted Gene Ontology (GO) and pathway enrichment analysis using g:Profiler.
-- Visualised enriched biological pathways and functional categories using Python.
+Results Summary
+Processed 10 publicly available human brain cancer WGS datasets through a reproducible Galaxy Europe and Python-based analysis workflow.
+Identified 707 unique genes carrying high and moderate impact variants following variant annotation and filtering.
+Generated a gene frequency summary to identify the most recurrently affected genes across the filtered variant dataset, providing a basis for prioritisation for future investigation.
+Functional enrichment analysis using g:Profiler identified significant enrichment across GO Biological Process, Cellular Component, Molecular Function, Reactome, KEGG, Human Phenotype, and Transcription Factor categories.
+The most significantly enriched biological terms included cell periphery, olfactory receptor activity, sensory perception, and the Olfactory Signaling Pathway, based on adjusted p-values from the enrichment analysis.
+The project demonstrates an end-to-end workflow for variant filtering, gene frequency analysis, functional enrichment, and biological interpretation using publicly available brain cancer genomics datasets.
 
-> **Note:** This repository demonstrates a bioinformatics workflow using publicly available datasets. The enrichment results presented here are intended for educational and workflow demonstration purposes and should be interpreted as hypothesis-generating observations requiring further biological validation.
+**Note:** This repository demonstrates a bioinformatics workflow using publicly available datasets. The enrichment results presented here are intended for educational and workflow demonstration purposes and should be interpreted as hypothesis-generating observations requiring further biological validation.
 
 ---
 
