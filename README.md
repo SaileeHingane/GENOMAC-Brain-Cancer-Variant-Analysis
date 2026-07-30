@@ -118,7 +118,6 @@ GENOMAC-Brain-Cancer-Variant-Analysis/
 │
 ├── notebooks/
 │   ├── Brain_Cancer_Variant_Analysis.ipynb
-│   └── Notebook documentation
 │
 ├── results/
 |   ├── AllSamples_FilteredCombined
